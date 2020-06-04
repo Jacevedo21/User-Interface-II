@@ -1,1 +1,37 @@
 /* Add CSS styling here */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    font-size: 4rem;
+    justify-content: space-between;
+}
+.container nav{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+.container a{
+    width: 25%;
+    border: 1px black solid;
+    text-align: center;
+    background-color: black;
+    font-size: 2rem;
+}
+content{
+    display: flex;
+} 
+.hero {
+    display: flex;
+    justify-content: center;
+}
